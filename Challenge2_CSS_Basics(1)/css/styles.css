@@ -8,6 +8,16 @@ https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
 #A1C6D7 - blue light
 */
 
+/*
+NEW COLOR PALETTE
+https://www.w3schools.com/colors/colors_palettes.asp
+#d5f4e6 - mint
+#80ced6 - light turquoise
+#fefbd8 - light yellow
+#618685 - greyish green
+#36486b - dark blue
+#4040a1 - purple dark blue
+*/
 
 /* Global styles
 ------------------------------------*/
@@ -19,7 +29,7 @@ html {
 }
 
 body {
-  color: #343434;
+  color: #36486b;
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
@@ -30,7 +40,7 @@ img {
   width: 300px;
 }
 a {
-  color: #FFE66D;
+  color: #fefbd8;
 }
 a:hover {
   text-decoration: none;
@@ -64,7 +74,7 @@ h3 {
   margin: 0;
 }
 .divider > section {
-  border-bottom: 1px dashed #343434;
+  border-bottom: 1px dashed #36486b;
   padding: 25px 0;
 }
 .divider > section:last-of-type {
@@ -75,8 +85,8 @@ h3 {
 /* Profile
 ------------------------------------*/
 header {
-  background: #2F3061;
-  color: #F7FFF7;
+  background: #36486b;
+  color: #d5f4e6;
   font-family: 'Neucha', cursive;
 }
 
@@ -84,21 +94,21 @@ header {
 /* Projects
 ------------------------------------*/
 .projects {
-  background: #F7FFF7;
+  background: #d5f4e6;
 }
 .projects a {
-  color: #2F3061;
+  color: #36486b;
 }
 .projects .btn {
-  color: #F7FFF7;
-  background: #2F3061;
+  color: #d5f4e6;
+  background: #36486b;
   text-decoration: none;
   padding: 8px;
   border-radius: 4px;
   display: inline-block;
 }
 .projects .btn:hover {
-  background: rgba(47, 48, 97, 80%);
+  background: rgba(54, 72, 107, 80%);
 }
 .project-item {
   overflow: hidden;
@@ -111,7 +121,7 @@ header {
 /* Work Experience
 ------------------------------------*/
 .work-experience {
-  background: #A1C6D7;
+  background: #80ced6;
 }
 
 
@@ -132,8 +142,8 @@ header {
 /* Contact Info
 ------------------------------------*/
 footer {
-  background: #343434;
-  color: #F7FFF7;
+  background: #4040a1;
+  color: #d5f4e6;
 }
 .contact-list {
   list-style-type: none;
