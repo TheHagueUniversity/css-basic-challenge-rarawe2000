@@ -28,6 +28,28 @@ html {
   box-sizing: inherit;
 }
 
+nav a {
+  color: #36486b;    
+  background: #fefbd8;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 4px;  
+  margin: 0 0 0 10px;  
+}
+
+nav a:hover{
+  background: rgba(254, 251, 216, 80%);
+}
+
+nav.workExperienceButton {
+    background: #36486b;
+}
+
+nav.homepageButton {
+    background: #80ced6;
+}
+
+
 body {
   color: #36486b;
   margin: 0;
@@ -39,6 +61,7 @@ body {
 img {
   width: 300px;
 }
+
 a {
   color: #fefbd8;
 }
@@ -123,8 +146,6 @@ header {
 .work-experience {
   background: #80ced6;
 }
-
-
 
 /* Education
 ------------------------------------*/
