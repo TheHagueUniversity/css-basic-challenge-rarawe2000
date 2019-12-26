@@ -159,6 +159,29 @@ header {
   width: 60%;
 }
 
+/* Picture Gallery
+------------------------------------*/
+.gallery {
+   background: #fefbd8; 
+   display: flex;      
+   padding-bottom: 30px;       
+}
+
+.gallery img{
+    margin: 10px;
+}
+
+.gallery img:hover {
+   opacity: 0.5;        
+}
+
+.galleryHeader{  
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 80px;
+  background: #fefbd8;    
+}
 
 /* Contact Info
 ------------------------------------*/
